@@ -70,9 +70,9 @@ RUN go get github.com/mattn/goreman
 ####################
 RUN mkdir /etc/goreman
 COPY Procfile /etc/goreman
-COPY configure-parity.sh $HOME/configure-parity.sh
-RUN chmod +x $HOME/configure-parity.sh
-RUN $HOME/configure-parity.sh
+COPY configure-parity-eth.sh $HOME/configure-parity-eth.sh
+RUN chmod +x $HOME/configure-parity-eth.sh
+RUN $HOME/configure-parity-eth.sh
 
 
 #########################
