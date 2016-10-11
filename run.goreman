@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Starting parity.."
-cp /root/chain.json /var/www/chain.json
+#cp /root/chain.json /var/www/chain.json
 cd /etc/goreman 
 echo "starting foreman in bg.."
 goreman start
