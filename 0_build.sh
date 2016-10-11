@@ -1,1 +1,1 @@
-docker build -t baseboxorg/docker-parity-master:eth . #--no-cache
+docker build -t baseboxorg/docker-parity-master:etc . #--no-cache
