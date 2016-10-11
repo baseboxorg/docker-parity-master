@@ -1,1 +1,1 @@
-docker push baseboxorg/docker-parity-master:eth
+docker push baseboxorg/docker-parity-master
